@@ -1,0 +1,127 @@
+{
+  "project": "CAPACITY CONNECT - AI-Powered Digital Capacity Building & Learning Management Platform",
+  "organization": "India Meteorological Department (IMD), Ministry of Earth Sciences (MoES)",
+  "tagline": "Learn. Build Skills. Connect Expertise. Measure Impact.",
+  "design_archetype": "ARCHETYPE 1: ORGANIC & EARTHY / HIGH-CONTRAST ENTERPRISE TECH",
+  "theme_strategy": "Light mode default with crisp deep navy structural accents, high contrast data density, subtle slate borders, and vibrant status indicators for competency mapping and radar analytics.",
+  
+  "typography": {
+    "font_family_heading": "Cabinet Grotesk, Outfit, sans-serif",
+    "font_family_body": "Inter, Geist Variable, -apple-system, sans-serif",
+    "font_family_mono": "JetBrains Mono, Fira Code, monospace",
+    "headline_styles": {
+      "h1": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50 leading-tight",
+      "h2": "text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100",
+      "h3": "text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200",
+      "subtitle": "text-base sm:text-lg text-slate-600 dark:text-slate-400 font-normal leading-relaxed"
+    },
+    "label_styles": "text-xs font-semibold uppercase tracking-wider text-indigo-700 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-2.5 py-1 rounded-md border border-indigo-200/50 dark:border-indigo-800/40"
+  },
+
+  "colors": {
+    "primary": {
+      "deep_navy": "#0B192C",
+      "royal_indigo": "#1E3E62",
+      "brand_blue": "#005C97",
+      "hover_blue": "#004B7C"
+    },
+    "accent": {
+      "teal_cyan": "#00A896",
+      "emerald_green": "#028090",
+      "amber_warning": "#F59E0B",
+      "rose_danger": "#E11D48",
+      "purple_ai": "#7C3AED"
+    },
+    "backgrounds": {
+      "page_bg": "#F8FAFC",
+      "card_bg": "#FFFFFF",
+      "card_secondary": "#F1F5F9",
+      "hero_gradient": "bg-gradient-to-br from-slate-900 via-indigo-950 to-blue-950 text-white",
+      "ai_card_gradient": "bg-gradient-to-br from-indigo-900/90 via-purple-900/80 to-slate-900 text-white shadow-xl shadow-indigo-950/20 border border-indigo-500/30"
+    },
+    "borders": {
+      "light": "#E2E8F0",
+      "medium": "#CBD5E1",
+      "focus": "#3B82F6"
+    }
+  },
+
+  "layout_and_spacing": {
+    "spacing_scale": "p-4 sm:p-6 lg:p-8 for containers; gap-4 to gap-8 for bento grid cards",
+    "bento_grid_modes": {
+      "dashboard_hero": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+      "analytics_heatmaps": "grid grid-cols-1 lg:grid-cols-12 gap-6"
+    },
+    "card_padding": "p-6",
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  },
+
+  "image_urls": {
+    "weather_radar_abstract": "https://images.unsplash.com/photo-1759265936049-6f37df66c1d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHx3ZWF0aGVyJTIwcmFkYXIlMjBzYXRlbGxpdGUlMjBtZXRlb3JvbG9neSUyMGVhcnRoJTIwc2NpZW5jZSUyMGFic3RyYWN0JTIwbW9kZXJufGVufDB8fHx8MTc5MDQxMDU3OHww&ixlib=rb-4.1.0&q=85",
+    "earth_science_mesh": "https://images.unsplash.com/photo-1780806636884-24a9e658df62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHw0fHx3ZWF0aGVyJTIwcmFkYXIlMjBzYXRlbGxpdGUlMjBtZXRlb3JvbG9neSUyMGVhcnRoJTIwc2NpZW5jZSUyMGFic3RyYWN0JTIwbW9kZXJufGVufDB8fHx8MTc5MDQxMDU3OHww&ixlib=rb-4.1.0&q=85",
+    "satellite_visualization": "https://images.unsplash.com/photo-1759265936004-abbde153f20f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwcmFkYXIlMjBzYXRlbGxpdGUlMjBtZXRlb3JvbG9neSUyMGVhcnRoJTIwc2NpZW5jZSUyMGFic3RyYWN0JTIwbW9kZXJufGVufDB8fHx8MTc5MDQxMDU3OHww&ixlib=rb-4.1.0&q=85"
+  },
+
+  "priority_demo_flow_steps": [
+    "Step 1: Trainee Competency (AI Skill Gap Analyzer with Radar & Bar Charts)",
+    "Step 2: Personalized Learning Path (Interactive step-by-step interactive roadmap)",
+    "Step 3: Recommended Course (Detailed syllabus, competency tags, estimated effort)",
+    "Step 4: Enroll Action (Instant state updates with Sonner toast feedback)",
+    "Step 5: Course Material & Interactive Player (Video/Document module with chapter tracking)",
+    "Step 6: Assessment Flow (Smart Assessment engine with timer, mark for review, question palette, auto-save)",
+    "Step 7: Result & Competency Growth Feedback (Breakdown by Doppler Radar, Numerical Weather Modeling, Satellite Meteorology)",
+    "Step 8: Recommended Next Activity & Trainer Match (AI Trainer Matching algorithm with score & direct message/booking)",
+    "Step 9: Switch to Trainer Dashboard (Overview of trainees, course analytics, early warning for at-risk learners)",
+    "Step 10: AI Assessment Generator (Generate weather modeling question paper, review, edit, mandatory trainer review before publishing)",
+    "Step 11: Switch to Admin Dashboard (Organizational Competency Heatmap across IMD regions: HQ New Delhi, Regional Met Centers, NWP Center)",
+    "Step 12: Cybersecurity & Infrastructure Gap Analysis (Identify critical deficit in High-Performance Computing & Radar Cyber-defense, match trainers & courses)",
+    "Step 13: Training Impact Dashboard (Platform-measured skill delta analytics, explicitly labeled as internal learning data)"
+  ],
+
+  "navigable_roles": {
+    "trainee": [
+      "Trainee Dashboard", "My Learning", "Course Catalog", "Learning Paths", 
+      "Competency Radar", "Trainer Match", "Knowledge Hub", "Assessments", 
+      "Certificates", "Achievements", "Community", "CAPACITY AI", "Notifications", "Profile"
+    ],
+    "trainer": [
+      "Trainer Dashboard", "Managed Courses", "Learning Resources", "Assessments Hub", 
+      "AI Assessment Generator", "Trainee Roster", "Analytics & At-Risk", "Competency Demand", 
+      "Announcements", "Community", "Profile"
+    ],
+    "admin": [
+      "Admin Dashboard", "User Management", "Trainers Directory", "Trainees Directory", 
+      "Courses Catalog", "Competency Matrix", "Assessments Admin", "Certificates Admin", 
+      "Analytics & Intelligence", "Competency Heatmap", "Training Impact", "Knowledge Hub Admin", 
+      "Announcements Admin", "Achievements Admin", "Audit Logs", "Reports Generator", "Platform Settings"
+    ]
+  },
+
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm",
+    "tracing_beam_effect": "relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-indigo-500/20 before:to-transparent before:-translate-x-full hover:before:animate-[shimmer_2s_infinite]",
+    "badge_competency": "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-800",
+    "ai_glow_card": "border border-purple-500/30 shadow-[0_0_25px_rgba(124,58,237,0.15)] bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white"
+  },
+
+  "instructions_to_main_agent": [
+    "Ensure the upper navbar displays official IMD / MoES branding elements: Ministry of Earth Sciences, Govt of India logo lockup styling, and official emblem tone.",
+    "Implement a prominent Demo Switcher banner at the top allowing seamless 1-click role switching between Trainee (Dr. Ananya Sharma), Trainer (Dr. Rajesh Kumar - Senior Radar Specialist), and Admin (Shri Vikramaditya - Director General Capacity Building).",
+    "Provide a quick 'Run Priority Demo Flow' guided wizard bar so reviewers can step through the entire 13-step flow automatically or manually.",
+    "Ensure every single interactive element, menu item, card action, button, input, tab, and metric carries a descriptive 'data-testid' attribute (e.g. data-testid='trainee-enroll-btn', data-testid='competency-heatmap-matrix').",
+    "Use Recharts for rendering radar charts (competencies), bar charts (learning progress & impact), and heatmap grid representations.",
+    "Do NOT use raw HTML select or date inputs; stick to custom dropdowns and Shadcn primitives styled with indigo/navy accents.",
+    "All AI features (Skill Gap Analyzer, Assessment Generator, CAPACITY AI Assistant) must respond instantly with realistic, domain-rich meteorological and earth science content without requiring external API keys."
+  ],
+
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients everywhere except dedicated AI feature containers.",
+    "Don't make generic centered layouts. Use asymmetrical grid layouts with wide breathing room (p-6, p-8).",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) for sticky navigation and action overlays.",
+    "You MUST NOT apply universal transition (transition: all). Always specify explicit properties (e.g., transition-colors duration-200).",
+    "You MUST NOT center align the app container (.App { text-align: center; }).",
+    "NEVER use raw emoji characters like 🤖🧠💭💡 for UI icons. Use Lucide or Phosphor icons exclusively.",
+    "Every interaction needs micro-animations: hover states, smooth state transitions, and toast feedback via Sonner."
+  ]
+}

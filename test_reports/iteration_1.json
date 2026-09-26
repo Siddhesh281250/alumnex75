@@ -1,0 +1,25 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "bugs": [],
+  "action_items": [
+    "AI Skill Gap Analyzer, CAPACITY AI, and AI Assessment Generator are deterministic MOCKED prototype responses per specification; no external AI provider is integrated.",
+    "Charts and heatmap values are realistic demo/sample data and labeled as platform-measured/prototype signals."
+  ],
+  "retest_needed": false,
+  "checks": [
+    {"criterion":"Demo login supports all three roles","name":"demo-login-three-roles","lane":"browser","status":"passed","evidence":"Login page exposed all three demo account cards; login succeeded and role switcher showed Trainer workspace and Organizational command centre."},
+    {"criterion":"Trainee priority flow works end to end","name":"trainee-priority-flow","lane":"browser","status":"passed","evidence":"Opened competency, generated learning path, enrolled in NWP Model Validation Lab, submitted assessment, and displayed 78% result with feedback/next activity."},
+    {"criterion":"Trainer matching works","name":"trainer-matching-request","lane":"browser","status":"passed","evidence":"Trainer cards displayed match percentages and Cybersecurity expertise; POST /api/demo/mentorship returned 200 and mentorship success message."},
+    {"criterion":"Trainer dashboard and AI assessment review work","name":"trainer-ai-assessment-review","lane":"browser","status":"passed","evidence":"Trainer analytics rendered; assessment generator produced forecast-verification draft marked Needs trainer review; publish POST returned 200."},
+    {"criterion":"Admin competency intelligence works","name":"admin-intelligence-impact","lane":"browser","status":"passed","evidence":"Admin heatmap displayed Cybersecurity critical gap, requested AI/ML skills, and 128 verified trainers."},
+    {"criterion":"Admin training impact works","name":"admin-intelligence-impact","lane":"browser","status":"passed","evidence":"Training impact rendered platform-measured metrics, competency movement, and real-world performance disclaimer."},
+    {"criterion":"Secondary platform modules are navigable","name":"secondary-modules-navigable","lane":"browser","status":"passed","evidence":"Knowledge hub, Community, CAPACITY AI, Certificates, Achievements, Notifications, Profile, and Admin Settings rendered non-empty views."},
+    {"criterion":"Responsive layout remains usable","name":"responsive-mobile-layout","lane":"browser","status":"passed","evidence":"390px viewport showed mobile navigation and competency view; document scroll width did not exceed viewport width."},
+    {"criterion":"Demo login supports all three roles","name":"test_tscheck_auth_roles.py","lane":"backend","status":"passed","evidence":"POST /api/auth/login returned 200 for trainee, trainer, and admin; GET /api/auth/me returned matching role; 3 parametrized cases passed."},
+    {"criterion":"Trainee priority flow works end to end","name":"test_tscheck_trainee_priority.py","lane":"backend","status":"passed","evidence":"GET /api/demo/overview, POST /api/demo/learning-path, POST /api/demo/enroll, and POST /api/demo/assessment/submit returned 200; assessment score asserted 78."},
+    {"criterion":"Trainer dashboard and AI assessment review work","name":"test_tscheck_trainer_actions.py","lane":"backend","status":"passed","evidence":"POST /api/demo/assessment/generate returned 200 with Needs trainer review and domain questions; POST /api/demo/assessment/publish returned 200."},
+    {"criterion":"Admin competency intelligence and training impact work","name":"test_tscheck_admin_intelligence.py","lane":"backend","status":"passed","evidence":"GET /api/demo/overview returned 200 for admin; response contained Cybersecurity heatmap row and non-empty impact metrics."},
+    {"criterion":"Trainer matching works","name":"test_tscheck_mentorship.py","lane":"backend","status":"passed","evidence":"POST /api/demo/mentorship returned 200 with Mentorship request sent message."}
+  ]
+}
